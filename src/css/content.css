@@ -9,6 +9,7 @@
     background-color: transparent;
 }
 
+
 .ctn-content::-webkit-scrollbar {
     display: flex;
     width: 3px;
@@ -19,9 +20,13 @@
 }
 
 .content-profile {
-    margin-top: 30px;
     width: 100%;
     max-width: 900px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
 }
 
 .header-buttons {

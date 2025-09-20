@@ -36,7 +36,7 @@ function Aside() {
         <aside>
             <section className='presentation-aside'>
                 <img src={logo} alt="logo-CVHub" />
-                <p>Bem-vindo ao CVHub AI, seu perfil GitHub em formato de currículo!</p>
+                <p>Bem-vindo ao CVHub, seu perfil GitHub em formato de currículo!</p>
             </section>
 
             <section className='ctn-input'>
