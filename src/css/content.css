@@ -1,11 +1,12 @@
 .ctn-content {
     padding: 20px;
     width: 100%;
-    min-height: 100vh;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
     display: flex;
     justify-content: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    overflow-y: scroll;
+    background-color: transparent;
 }
 
 .ctn-content::-webkit-scrollbar {
@@ -21,7 +22,6 @@
     margin-top: 30px;
     width: 100%;
     max-width: 900px;
-    height: 1920px;
 }
 
 .header-buttons {
