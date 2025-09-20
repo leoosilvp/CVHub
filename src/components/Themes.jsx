@@ -1,3 +1,4 @@
+
 function Themes() {
   return (
     <div>
@@ -6,4 +7,4 @@ function Themes() {
   )
 }
 
-export default Themes
+export default Themes;
