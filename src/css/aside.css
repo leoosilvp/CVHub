@@ -9,7 +9,7 @@ aside{
 }
 
 .presentation-aside{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,11 +26,11 @@ aside{
     text-align: justify;
     font-size: 0.8rem;
     font-weight: 500;
-    color: #d9d9d9;
+    color: #d9d9d9be;
 }
 
 .ctn-input{
-    margin-top: 35px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
