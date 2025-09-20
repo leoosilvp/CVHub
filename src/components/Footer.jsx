@@ -1,9 +1,10 @@
+import '../css/footer.css'
 
 function Footer() {
   return (
-    <div>
-      
-    </div>
+    <footer>
+      <h1>CVHub V. 0.1.0</h1>
+    </footer>
   )
 }
 

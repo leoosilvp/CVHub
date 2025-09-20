@@ -82,7 +82,7 @@ aside{
     flex-direction: column;
     align-items: center;
     width: 310px;
-    gap: 7px;
+    gap: 4px;
 }
 
 .footer-aside p{
