@@ -4,7 +4,7 @@ export const UserContext = createContext();
 
 export function UserProvider({ children }) {
   const [userData, setUserData] = useState(null);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   return (
     <UserContext.Provider value={{ userData, setUserData, theme, setTheme }}>
