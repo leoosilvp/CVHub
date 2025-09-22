@@ -6,7 +6,7 @@ function Header() {
     <header>
       <h1>CVHub</h1>
       <img src={icon}/>
-      <a href="#"><i className="fa-brands fa-square-github"></i></a>
+      <a href="https://github.com/leoosilvp/CVHub"><i className="fa-brands fa-square-github"></i></a>
     </header>
   )
 }

@@ -1,7 +1,7 @@
 {
   "name": "cvhub",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
     "node-fetch": "^3.3.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

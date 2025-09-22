@@ -3,8 +3,8 @@ import { createContext, useState } from "react";
 export const UserContext = createContext();
 
 export function UserProvider({ children }) {
-  const [userData, setUserData] = useState(null); // dados do GitHub
-  const [theme, setTheme] = useState("light"); // light ou dark
+  const [userData, setUserData] = useState(null);
+  const [theme, setTheme] = useState("light");
 
   return (
     <UserContext.Provider value={{ userData, setUserData, theme, setTheme }}>
