@@ -23,7 +23,7 @@ O objetivo do CVHub é **facilitar a criação de portfólios profissionais** a 
 - Links clicáveis dentro do PDF (em próximos updates podem ser totalmente interativos).
 
 
-# ⚒️ Tecnologias Utilizadas
+# ⚒️ Technologies Used
 
 - **React.js** – Interface dinâmica e reativa.
 - **html2canvas** – Captura o conteúdo da página como imagem para PDF.
@@ -32,7 +32,7 @@ O objetivo do CVHub é **facilitar a criação de portfólios profissionais** a 
 - **CSS** – Estilização responsiva e tema escuro/claro.
 - **GitHub API** – Obtenção de informações públicas do perfil e repositórios.
 
-# ⚙️ Como Funciona
+# ⚙️ How It Works
 
 1. O usuário insere o login de um perfil GitHub.
 2. O CVHub consome a API do GitHub para obter:
@@ -46,7 +46,7 @@ O objetivo do CVHub é **facilitar a criação de portfólios profissionais** a 
 5. O PDF resultante está pronto para compartilhamento ou impressão.
 
 
-# 📋 Próximos Recursos
+# 📋 Upcoming Features
 
 - Links totalmente clicáveis dentro do PDF.
 - Personalização de cores, fontes e layout do currículo.
@@ -54,7 +54,7 @@ O objetivo do CVHub é **facilitar a criação de portfólios profissionais** a 
 - Integração com plataformas de portfólio online.
 
 
-# 👥 Contribuição
+# 👥 Contribution
 
 Contribuições são bem-vindas!  
 
@@ -65,7 +65,7 @@ Contribuições são bem-vindas!
 5. Abra um **Pull Request** explicando a alteração.
 
 
-# 📜 Licença
+# 📜 License
 
 Este projeto está licenciado sob a **Licença Apache 2.0** – consulte o arquivo [LICENSE](LICENSE) para detalhes.
 
