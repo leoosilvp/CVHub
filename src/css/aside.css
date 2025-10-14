@@ -4,8 +4,9 @@ aside{
     width: 320px;
     height: 100vh;
     padding: 30px;
-    background: #000009bb;
-    box-shadow: 0px 0px 60px 5px #f5f5f51c, 1px 0px 0px 0px var(--color-line);
+    background: #00000065;
+    border-right: 1px solid var(--color-line);
+    box-shadow: 0px 0px 60px 5px #000000, inset 0px 0px 20px 0px #000000;
 }
 
 .presentation-aside{
