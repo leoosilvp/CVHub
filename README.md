@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://cv-hub-jet.vercel.app/">
-  <img src="./src/assets/img/logo-dark.svg" width="320px" />
+  <img src="./src/assets/svg/logo-dark.svg" width="300px" />
 </a>
 
 <br/>
