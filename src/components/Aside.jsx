@@ -1,5 +1,5 @@
 import '../css/aside.css';
-import logo from '../assets/img/logo-dark.svg';
+import logo from '../assets/svg/logo-dark.svg';
 import Themes from './Themes';
 import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
@@ -24,7 +24,9 @@ function Aside() {
             try {
                 const readmeRes = await fetch(`https://raw.githubusercontent.com/${username}/${username}/main/README.md`);
                 if (readmeRes.ok) readme = await readmeRes.text();
-            } catch { }
+            } catch {
+                //ignore
+            }
 
             setUserData({ profile, top_repos, readme });
         } catch (error) {

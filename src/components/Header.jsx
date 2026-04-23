@@ -1,5 +1,5 @@
 import '../css/header.css'
-import icon from '../assets/img/icon-dark.svg'
+import icon from '../assets/svg/icon.svg'
 
 function Header() {
   return (
