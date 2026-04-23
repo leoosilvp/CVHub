@@ -8,7 +8,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-cv--hub.vercel.app-0A66C2?style=for-the-badge)](https://cv-hub-jet.vercel.app/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-black?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Version-1.5.0-black?style=for-the-badge)]()
 [![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)]()
 
 </div>

@@ -1,7 +1,7 @@
 {
   "name": "cvhub",
   "private": true,
-  "version": "0.2.0",
+  "version": "1.5.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
