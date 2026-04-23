@@ -4,7 +4,7 @@ import Content from '../components/Content';
 const Home = () => {
     return (
         <main >
-            <Header />
+            <Header path={'Home'}/>
             <div className="content-main">
                 <Content />
             </div>
