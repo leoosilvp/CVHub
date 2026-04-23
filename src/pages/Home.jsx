@@ -1,12 +1,11 @@
+import '../css/home.css'
 import Header from '../components/Header';
-import Content from '../components/Content';
 
 const Home = () => {
     return (
-        <main >
-            <Header path={'Home'}/>
-            <div className="content-main">
-                <Content />
+        <main className='home-main'>
+            <Header path={'Home'} />
+            <div className="home-main-content">
             </div>
         </main>
     )

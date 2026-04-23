@@ -1,0 +1,11 @@
+.home-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main-content {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background: #1e1e1e;
+}

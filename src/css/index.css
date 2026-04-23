@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 * {
   margin: 0;
@@ -21,39 +22,42 @@
 
 body {
   display: flex;
-  font-family: "Poppins", sans-serif;
   width: 100vw;
-  height: 100vh;
+  font-family: "Pixelify Sans";
   color: #f5f5f5;
   background: var(--black);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
+body::-webkit-scrollbar {
+  width: 5px;
+  background: #080808;
 }
 
-.content-main {
-  display: flex;
-  width: 100%;
+body::-webkit-scrollbar-thumb {
+  background: #0f0f0f;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 
 /* HEADER */
 
 .header-main {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   padding: 15px 20px;
   padding-bottom: 0;
   height: fit-content;
   background: #080808;
   border-bottom: 1.5px solid var(--color-line);
   gap: 10px;
+  transition: var(--transition);
 }
 
 .header-content {
@@ -126,7 +130,7 @@ main {
   display: flex;
   align-items: center;
   font-size: 0.9rem;
-  padding: 10px 13px 10px 13px;
+  padding: 10px 10px 10px 10px;
   border-bottom: 1.5px solid transparent;
   color: var(--gray-color);
   transition: var(--transition);
@@ -140,4 +144,28 @@ main {
 .header-main nav a.active {
   color: var(--light-color);
   border-color: var(--light-color);
+}
+
+.header-main-scrolled {
+  padding: 0 20px;
+  justify-content: flex-start !important;
+  align-items: center;
+  flex-direction: initial;
+  z-index: 2;
+}
+
+.header-main-scrolled .header-content-left img {
+  width: 25px;
+}
+
+.header-main-scrolled .header-content-left span {
+  display: none;
+}
+
+.header-main-scrolled .header-content-right {
+  display: none;
+}
+
+.header-main-scrolled nav ul a {
+  padding: 12px;
 }

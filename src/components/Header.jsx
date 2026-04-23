@@ -1,10 +1,20 @@
 import { Coffee, Github, Home } from '@geist-ui/icons';
 import icon from '../assets/svg/icon.svg'
 import { Link, NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 function Header({ path, user }) {
+
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 64)
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   return (
-    <header className='header-main'>
+    <header className={`header-main ${isScrolled ? 'header-main-scrolled' : ''}`}>
       <section className='header-content'>
         <article className='header-content-left'>
           <Link>
