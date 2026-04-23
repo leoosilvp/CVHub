@@ -83,12 +83,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-content-left span p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #2f2f2f;
 }
 
 .header-content-left span h2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -99,7 +99,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-content-right h1 {
-  font-size: 0.85rem;
+  font-size: 0.90rem;
   font-weight: 400;
   color: var(--gray-color);
   transition: var(--transition);
@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
 .header-main nav a {
   display: flex;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 10px 10px 10px 10px;
   border-bottom: 1.5px solid transparent;
   color: var(--gray-color);
@@ -168,4 +168,69 @@ body::-webkit-scrollbar-thumb {
 
 .header-main-scrolled nav ul a {
   padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer-main {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px;
+  background: #080808;
+  border-top: 1.5px solid var(--color-line);
+  z-index: 1;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-nav img {
+  display: flex;
+  width: 30px;
+}
+
+.footer-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-nav a {
+  font-size: 0.9rem;
+  color: var(--gray-color);
+  transition: var(--transition);
+}
+
+.footer-nav a:hover {
+  color: var(--light-color);
+}
+
+.footer-credits {
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #767676;
+}
+
+.footer-credits a {
+  color: #767676;
+  transition: var(--transition);
+}
+
+.footer-credits a:hover {
+  color: var(--light-color);
 }

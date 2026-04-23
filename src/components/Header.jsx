@@ -1,4 +1,4 @@
-import { Coffee, Github, Home } from '@geist-ui/icons';
+import { Coffee, FileText, Github, Home } from '@geist-ui/icons';
 import icon from '../assets/svg/icon.svg'
 import { Link, NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -41,6 +41,7 @@ function Header({ path, user }) {
           <NavLink to='/home'><Home size={16} /> Home</NavLink>
           <NavLink to='/contribute'><Coffee size={16} /> Contribute</NavLink>
           <NavLink to='https://github.com/leoosilvp/CVHub' target='_blank'><Github size={16} /> GitHub</NavLink>
+          <NavLink to='/resume'><FileText size={16} />My resume</NavLink>
         </ul>
       </nav>
     </header>

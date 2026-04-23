@@ -1,11 +1,25 @@
 .home-main {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    align-items: center;
 }
 
-.home-main-content {
+.home-content {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    height: 1000px;
-    background: #1e1e1e;
+    width: 1200px;
+    max-width: 95%;
+}
+
+.home-welcome {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-welcome h1{
+    font-size: 3.5rem;
+    font-weight: 300;
 }
