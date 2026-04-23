@@ -1,22 +1,15 @@
-import './css/style.css';
-import { UserProvider } from './context/UserContext';
-import Header from './components/Header';
-import Aside from './components/Aside';
-import Content from './components/Content';
-import Footer from './components/Footer';
+import './css/index.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <UserProvider>
-      <main>
-        <Header />
-        <div className="content-main">
-          <Aside />
-          <Content />
-        </div>
-        <Footer />
-      </main>
-    </UserProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={'welcome'} />
+        <Route path='/home' element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
