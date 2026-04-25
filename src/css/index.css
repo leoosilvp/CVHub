@@ -181,7 +181,7 @@ body::-webkit-scrollbar-thumb {
 /* Footer */
 
 .footer-main {
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;

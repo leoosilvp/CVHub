@@ -1,0 +1,140 @@
+.contribute-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contribute-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 1200px;
+    padding: 30px 0;
+    min-height: 1000px;
+}
+
+.contribute-content h1 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.contribute-content h2 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.contribute-content hr {
+    margin: 15px 0 5px;
+    border: none;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+.contribute-content p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--gray-color);
+}
+
+.contribute-cards {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.contribute-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid var(--dark-color);
+    border-radius: 10px;
+    background: #080808;
+}
+
+.contribute-card h3 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.contribute-via-pix {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid var(--dark-color);
+    border-radius: 10px;
+    background: #080808;
+    gap: 50px;
+}
+
+.contribute-via-pix img {
+    display: flex;
+    width: 300px;
+    border-radius: 7px;
+}
+
+.contribute-pix-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contribute-pix-content code {
+    display: flex;
+    width: 350px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background: var(--dark-color);
+    border-radius: 7px;
+    font-size: 0.9rem;
+}
+
+.contribute-pix-content code::-webkit-scrollbar {
+    display: none;
+}
+
+.contribute-pix-content p {
+    font-size: 0.9rem;
+    max-width: 500px;
+}
+
+.contribute-pix-content span {
+    display: flex;
+    margin: 10px 0 -7px;
+    color: #c9c9c9;
+}
+
+.contribute-pix-content button {
+    width: fit-content;
+    font-family: "Pixelify Sans";
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 6px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #212121;
+    color: var(--light-color);
+    cursor: pointer;
+    transition: var(--transition-2s);
+    gap: 10px;
+}
+
+.contribute-pix-content button:hover {
+    background: var(--light-color);
+    color: var(--black);
+}
+
+.contribute-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contribute-footer p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #696969;
+}
